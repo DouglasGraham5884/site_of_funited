@@ -2,17 +2,53 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>FU - 1st Anniversary</title>
+        <title>1st Anniversary ー Funabashi United</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="https://withfootball.club/wp-content/uploads/2021/05/bf81dbe2a5013a98b99b632811792dbf.png" sizes="192x192">
         <!-- CSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
-        <div class="container">
+        <div class="header-box">
+            <header>
+                <div class="logo">
+                    <a class="fu-logo" href="https://w-fu.com/"></a>
+                </div>
+    
+                <div class="pc-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="https://w-fu.com/">HOME</a></li>
+                            <li><a href="https://withfootball.club/about-us/">ABOUT US</a></li>
+                            <li><a href="#">SNS</a></li><!-- 後で通常の文字列に変更、プルダウン式にする -->
+                            <li><a href="https://withfootball.club/contact/">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <div class="sp-menu">
+                    <span class="material-icons" id="open">menu</span>
+                </div>
+            </header>
+            <h1 class="title">1st Anniversary</h1>
+        </div>
+
+        <div class="overlay">
+            <span class="material-icons" id="close">close</span>
+            <nav>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
             <section>
                 <h3>何もない０からのスタート</h3>
                 <p>2020年7月10日Funabashi Unitedは設立が発表されました。<br>
@@ -260,7 +296,8 @@
 
 
 
-        </div>
+        </main>
 
+        <script src="js/main.js"></script>
     </body>
 </html>
